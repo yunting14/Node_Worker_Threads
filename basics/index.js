@@ -95,6 +95,6 @@ const jobs = Array.from({ length: 100 }, () => 1e9);
 // runFib(40);
 
 const arr = new Array();
-// cannot pass objects between node processes/threads... need
+// cannot pass objects between node processes/threads... need buffer
 workersCanShareData(obj, 1);
 
